@@ -68,4 +68,17 @@ h1 {
     border-radius: 20%;
     border: none;
     border: 1px solid whitesmoke;
+  
+.container1{
+  position: absolute;
+  border-radius: 3px;
+}
+.text{
+  width: 352px; 
+  height: 26px; 
+  font-family: Open Sans; /* Body */
+  font-size: 16px; 
+  line-height: 26px; 
+  font-weight: 700; 
+  color: rgba(23,26,31,1); /* neutral-900 */ 
 }

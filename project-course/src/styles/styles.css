@@ -1,3 +1,99 @@
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #f4f4f4; 
+}
+
+.karopka {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 30px; 
+}
+
+.karopka input {
+    padding-left: 25px;
+    height: 30px; 
+    width: 280px;
+    font-size: 14px;
+}
+
+.karopka button {
+    height: 35px;
+    padding: 0 20px;
+    background-color: #007BFF; 
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.karopka button:hover {
+    background-color: #0056b3;
+}
+
+.icon {
+    position: absolute;
+    width: 20px;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.cointener {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    flex-wrap: wrap; 
+}
+
+.cointener div {
+    margin: 10px;
+    flex: 1 1 200px;
+}
+
+h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.oxiri {
+    margin: 20px 0;
+}
+
+.oxiri select {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+}
+
+.oxiri p {
+    margin-top: 20px;
+}
+
+.tarqatish {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.tarqatish img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+.tarqatish img:hover {
+    transform: scale(1.1); /* Optional: add hover effect to icons */
+}
 body {
     display: flex;
     padding: 0;
@@ -66,3 +162,56 @@ h5 {
     height: 48px; 
     fill: #1E90FFFF; 
   }
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-weight: 100%;
+}
+.text {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1176px; 
+    height: 84px;
+    font-size: 70px; 
+    line-height: 84px; 
+    font-weight: 700; 
+    padding: 5px;
+}
+.text2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px; 
+    line-height: 36px; 
+    font-weight: 400; 
+}
+button{
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-family: Open Sans; 
+    font-size: 20px; 
+    line-height: 28px; 
+    font-weight: 400; 
+    color: rgba(109,109,109,1);
+    padding: 5px;
+    border-radius: 5px;
+}
+.button:hover {
+    color: rgba(109,109,109,1); 
+    background: rgba(220,220,220,1);
+  }
+  .button:hover:active {
+    color: rgba(109,109,109,1); 
+    background: rgba(192,192,192,1); 
+  }
+  .button:disabled {
+    opacity: 0.4; 
+  }
+
+
